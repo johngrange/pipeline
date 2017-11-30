@@ -55,7 +55,6 @@ deploy:
         port: "8080"
         tag: latest
         repository: jgrange90/pipeline-hello
-        registry: https://registry.hub.docker.com
     - cng/cf-deploy:
         api: $API
         user: $USER
