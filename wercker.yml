@@ -29,8 +29,7 @@ build:
         code: |
           cd $WERCKER_SOURCE_DIR
           go version
-          go get -u github.com/johngrange/pipeline
-          go get -u github.com/Mastermindes/glide
+          go get -u github.com/Masterminds/glide
           export PATH=$WERCKER_SOURCE_DIR/bin:$PATH
           glide install
     # Build the project
