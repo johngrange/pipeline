@@ -51,7 +51,7 @@ deploy:
     - internal/docker-push:
         username: $USERNAME
         password: $PASSWORD
-        cmd: /pipeline/source/hello
+        cmd: /pipeline/source/pipeline
         port: "8080"
         tag: latest
         repository: jgrange90/pipeline-hello
