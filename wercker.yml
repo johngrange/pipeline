@@ -55,11 +55,11 @@ deploy:
         port: "8080"
         tag: latest
         repository: jgrange90/pipeline-hello
-    - cng/cf-deploy:
-        api: $API
-        user: $USER
-        password: $PASSWORD
-        org: $ORG
-        space: $SPACE
-        appname: wercker-step-hello
-        docker-image: jgrange90/book-hello
+#    - cng/cf-deploy:
+#        api: $API
+#        user: $USER
+#        password: $PASSWORD
+#        org: $ORG
+#        space: $SPACE
+#        appname: wercker-step-hello
+#        docker-image: jgrange90/book-hello
